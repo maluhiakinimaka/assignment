@@ -1,30 +1,42 @@
 ---
-title: "assignment"
-author: "maluhia stark-kinimaka"
-date: "2023-08-21"
-output: html_document
+title: "Assignment"
+author: "Maluhia Stark-Kinimaka "
+date: "(August 21, 2023)"
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo=TRUE)
 ```
 
-## R Markdown
+```{r}
+  library(raster)
+  library(habtools)
+  library(ggplot2)
+  library(dplyr)
+  library(fishualize)
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+  plot(horseshoe)
 ```
 
-## Including Plots
+### Current Lab
+Geometric Ecology Lab
 
-You can also embed plots, for example:
+### Project Focus
+Still developing, but along the lines of understanding how coral morphology relates to wave energy attenuation. Maybe conceptualizing how to derive coral "roughness" values by species for storm event modeling.
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+### Why This Course?
+Quantifying how the ocean moves through and around coral reef is the coolest thing ever.
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+### Course Learning Goals
+(1) Learn current methodologies for measuring coral geometry.
+(2) Become very comfortable creating reproductions of reef structure (3D printing, SfM     model creation).
+(3) Understand more deeply how geometry effects reef accretion and wave energy             attenuation using observation, R, and reproduction model analysis.
+(4) Have fun.
+
+### Experience with R
+This assignment, also simultaneously taking MBIO 612 (Data Science & Fundamentals in R).
+
+### Fun Fact
+My first name is 28 letters long.
+ 
